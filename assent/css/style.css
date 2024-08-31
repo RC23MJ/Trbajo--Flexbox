@@ -1,0 +1,209 @@
+
+body {
+    margin: 1px;
+    font-family: sans-serif;
+}
+
+/* section */
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0;
+    justify-content: space-between;
+    border: 2px solid black;
+    
+        
+}
+/* CAJAS PRINCIPALES */
+.box1 {
+    width: 40%;    
+    margin: 10px;
+    border: 2px solid grey;
+}
+
+.box2 {
+    display: flex;
+    width: 100%;
+    background-color: #fffcf4;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+/* cajas hijas box 1 primer li */
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+li {
+    list-style-type: none;
+}
+
+.chat {
+    display: flex;    
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+    justify-content: space-between;
+    height: 80px;
+}
+
+/* iconos */
+.chat > div:last-child {
+    display: flex;
+    gap: 10px;
+    margin: 15px;
+}
+
+.chat img {
+    width: 40px;
+    border-radius: 50px;
+    margin: 30px 20px 30px 20px;
+    
+    
+}
+
+.m {
+    padding: 0;    
+    margin: 0 30% 0 0 ;
+}
+
+i {
+    font-size: 18px; 
+    cursor: pointer; 
+}
+
+.chat > div:first-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.chat h2 {
+    margin: 0; 
+    font-size: 16px;
+}
+
+.chat p.act {
+    margin: 0; 
+    font-size: 13px; 
+    opacity: 0.6; 
+    line-height: 1;
+}
+
+
+/* div despues del segundo li que contine el chat nuevo */
+.boxchat2 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: center;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 50px;
+    cursor: pointer;
+}
+
+.boxchat2 .chat2:hover {
+
+    color: black;
+    background-color: #dac9ff;
+    }
+
+.chat2 {
+    background-color: #a23bdd;
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+
+/* caja chat3 que contiene los demás chat sin caja nuevo chat */
+
+.chat3 {
+    display: flex;    
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+    justify-content: left;
+    height: 80px;
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+}
+
+.chat3:hover {
+
+    color: white;
+    background-color: #1b1b32;
+    }
+
+
+
+.chat3 img {
+    width: 50px;
+    border-radius: 50px;
+    margin: 30px 20px 30px 20px;
+    
+    
+}
+
+.m3 {
+    padding: 0;    
+    margin: 0 30% 0 0 ;
+}
+
+
+.chat3 > div:first-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.chat3 h2 {
+    margin: 0; 
+    font-size: 16px;
+}
+
+.chat3 p.act {
+    margin: 0; 
+    font-size: 13px; 
+    opacity: 1; 
+    line-height: 1;
+}
+
+/* nuevo chat de la caja box2 */
+
+
+.newchat img {
+    width: 150px;
+    border-radius: 10px;
+    
+
+}
+
+.newchat h2 {
+    font-size: 40px;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+
+}
+
+.newchat p {
+    font-size: 14px;
+    margin: 0;
+    margin-top: 0;
+    
+}
+
+.newchat h2,p {
+
+    line-height: 0.7;
+
+}
